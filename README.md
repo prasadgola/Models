@@ -6,3 +6,7 @@
 # Simple self attention Mechanism
 
 ![Simple self attention Mechanism](Simpleself_attention_mechanism.jpg)
+
+
+# Single gpt transformer layer
+![Single gpt transformer layer](Single_gpt_transformer_layer.jpg)
