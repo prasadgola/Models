@@ -1,61 +1,71 @@
 # import os
-# import tiktoken
+import tiktoken
 import torch
-import torch.nn as nn
 
-GPT_CONFIG_124M = {
-    "vocab_size": 50257,    # Vocabulary size
+intial_state = {
+    "tokens": 50257,    # Vocabulary size
+    "token_dimension": 768,         # Embedding dimension
     "context_length": 1024, # Context length
-    "emb_dim": 768,         # Embedding dimension
-    "n_heads": 12,          # Number of attention heads
-    "n_layers": 12,         # Number of layers
     "drop_rate": 0.1,       # Dropout rate
+    "heads": 12,          # Number of attention heads
+    "layers": 12,         # Number of layers
     "qkv_bias": False       # Query-Key-Value bias
 }
 
-class GPT(nn.Module):
-    def __init__(self, config):
+class model(torch.nn.Module):
+    def __init__(self, variables):
         super().__init__()
-        # self.config = config
-        self.token_embedding = nn.Embedding(config["vocab_size"], config["emb_dim"])
-        self.position_embedding = nn.Embedding(config["context_length"], config["emb_dim"])
-        self.dropout = nn.Dropout(config["drop_rate"])
-        # self.transformer = nn.ModuleList([nn.ModuleList([nn.Linear(config["emb_dim"], config["emb_dim"]), nn.Linear(config["emb_dim"], config["emb_dim"]), nn.Linear(config["emb_dim"], config["emb_dim"]), nn.Linear(config["emb_dim"], config["emb_dim"])]) for _ in range(config["n_layers"])]
+        self.embedding_matrix_TxD = torch.nn.Embedding(variables["tokens"], variables["token_dimension"])
+        self.position_embedding_matrix_CxD = torch.nn.Embedding(variables["context_length"], variables["token_dimension"])
+        self.dropout = torch.nn.Dropout(variables["drop_rate"])
 
-        self.transformer_block = nn.Sequential(
-            nn.Linear(config["emb_dim"], config["emb_dim"]),
-            nn.Linear(config["emb_dim"], config["emb_dim"]),
-            nn.Linear(config["emb_dim"], config["emb_dim"]),
-            nn.Linear(config["emb_dim"], config["emb_dim"]),
-        )
+        # transfomer
+        self.transformer = torch.nn.Sequential(*[transformer(variables) for _ in range(variables["layers"])])
 
-        self.final_normalization = nn.LayerNorm(config["emb_dim"])
-        self.final_linear = nn.Linear(config["emb_dim"], config["vocab_size"], bias=False)
+        # last layer
+        self.normalization = torch.nn.LayerNorm(variables["token_dimension"])
+        self.output_layer = torch.nn.Linear(variables["token_dimension"], variables["tokens"], bias=False)
 
-    def forward(self, x):
-        batch_size, seq_length = x.shape
-        token_embeddings = self.token_embedding(x)
-        position_embeddings = self.position_embedding(torch.arange(seq_length, device=x.device).unsqueeze(0).expand(batch_size, -1))
+        
+    def forward(self, batch):
+        batch_size, chunk_size = batch.shape
+        token_embeddings = self.embedding_matrix_TxD(batch)
+        position_embeddings = self.position_embedding_matrix_CxD(torch.arange(chunk_size, device=batch.device).unsqueeze(0).expand(batch_size, -1))
+
         x = token_embeddings + position_embeddings
-        x = self.dropout(x)
-        x = self.transformer_block(x)
-        x = self.final_normalization(x)
-        x = self.final_linear(x)
+        x = self.transformer(x)
+        x = self.normalization(x)
+        x = self.output_layer(x)
+        return x
+
+class transformer(torch.nn.Module):
+    def __init__(self, variables):
+        super().__init__()
+        
+    def forward(self, x):
         return x
 
 
-class transformer_block(nn.Module):
-    def __init__(self, config):
+class DummyLayer(torch.nn.Module):
+    def __init__(self, variables):
         super().__init__()
         # placeholder for now
         
     def forward(self, x):
         return x
+            
+model = model(intial_state)
 
-class DummyLayer(nn.Module):
-    def __init__(self, config):
-        super().__init__()
-        # placeholder for now
-        
-    def forward(self, x):
-        return x
+
+tokenizer = tiktoken.get_encoding("gpt2")
+english1 = "Every effort moves you"
+english2 = "Every day holds a"
+
+
+
+token_ID_batch = []
+token_ID_batch.append(torch.tensor(tokenizer.encode(english1)))
+token_ID_batch.append(torch.tensor(tokenizer.encode(english2)))
+
+batch = torch.stack(token_ID_batch, dim=0)
+logits = model(batch)
