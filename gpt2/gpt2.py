@@ -1,16 +1,5 @@
-# import os
 import tiktoken
 import torch
-
-intial_state = {
-    "tokens": 50257,    # Vocabulary size
-    "token_dimension": 768,         # Embedding dimension
-    "context_length": 1024, # Context length
-    "drop_rate": 0.1,       # Dropout rate
-    "heads": 12,          # Number of attention heads
-    "layers": 12,         # Number of layers
-    "qkv_bias": False       # Query-Key-Value bias
-}
 
 class model(torch.nn.Module):
     def __init__(self, variables):
@@ -19,11 +8,13 @@ class model(torch.nn.Module):
         self.position_embedding_matrix_CxD = torch.nn.Embedding(variables["context_length"], variables["token_dimension"])
         self.dropout = torch.nn.Dropout(variables["drop_rate"])
 
-        # transfomer
+        # for loop n number of times which are layers
         self.transformer = torch.nn.Sequential(*[transformer(variables) for _ in range(variables["layers"])])
 
         # last layer
+        # normalize one last time
         self.normalization = torch.nn.LayerNorm(variables["token_dimension"])
+        # output layer
         self.output_layer = torch.nn.Linear(variables["token_dimension"], variables["tokens"], bias=False)
 
         
@@ -38,34 +29,142 @@ class model(torch.nn.Module):
         x = self.output_layer(x)
         return x
 
+# transformer architecture
 class transformer(torch.nn.Module):
     def __init__(self, variables):
         super().__init__()
-        
+        self.multihead_attention = MultiHeadAttention(variables["token_dimension"], variables["token_dimension"], variables["context_length"], variables["drop_rate"], variables["heads"], variables["qkv_bias"])
+        self.feed_forward = FeedForward(variables)
+        self.layer_norm1 = LayerNorm(variables["token_dimension"])
+        self.layer_norm2 = LayerNorm(variables["token_dimension"])
+        self.drop_shotcut = torch.nn.Dropout(variables["drop_rate"])
+    
     def forward(self, x):
+        shortcut = x
+        x = self.layer_norm1(x)
+        x = self.multihead_attention(x)
+        x = self.drop_shotcut(x)
+        x = x + shortcut
+        shortcut = x
+        x = self.layer_norm2(x)
+        x = self.feed_forward(x)
+        x = self.drop_shotcut(x)
+        x = x + shortcut
         return x
 
+# Multi head attention mechanism
+class MultiHeadAttention(torch.nn.Module):
+    def __init__(self, d_in, d_out, context_length, dropout, num_heads, qkv_bias=False):
+        super().__init__()
+        assert d_out % num_heads == 0, "d_out must be divisible by num_heads"
 
-class DummyLayer(torch.nn.Module):
+        self.d_out = d_out
+        self.num_heads = num_heads
+        self.head_dim = d_out // num_heads # Reduce the projection dim to match desired output dim
+
+        self.W_query = torch.nn.Linear(d_in, d_out, bias=qkv_bias)
+        self.W_key = torch.nn.Linear(d_in, d_out, bias=qkv_bias)
+        self.W_value = torch.nn.Linear(d_in, d_out, bias=qkv_bias)
+        self.out_proj = torch.nn.Linear(d_out, d_out)
+        self.dropout = torch.nn.Dropout(dropout)
+        self.register_buffer('mask', torch.triu(torch.ones(context_length, context_length), diagonal=1))
+
+    def forward(self, x):
+        b, num_tokens, d_in = x.shape
+
+        keys = self.W_key(x)
+        queries = self.W_query(x)
+        values = self.W_value(x)
+
+        keys = keys.view(b, num_tokens, self.num_heads, self.head_dim) 
+        values = values.view(b, num_tokens, self.num_heads, self.head_dim)
+        queries = queries.view(b, num_tokens, self.num_heads, self.head_dim)
+
+        keys = keys.transpose(1, 2)
+        queries = queries.transpose(1, 2)
+        values = values.transpose(1, 2)
+
+        attn_scores = queries @ keys.transpose(2, 3)
+        
+        mask_bool = self.mask.bool()[:num_tokens, :num_tokens]
+
+        attn_scores.masked_fill_(mask_bool, -torch.inf)
+        
+        attn_weights = torch.softmax(attn_scores / keys.shape[-1]**0.5, dim=-1)
+        attn_weights = self.dropout(attn_weights)
+
+        context_vec = (attn_weights @ values).transpose(1, 2) 
+        
+        context_vec = context_vec.contiguous().view(b, num_tokens, self.d_out)
+        context_vec = self.out_proj(context_vec) 
+
+        return context_vec
+
+# activation function
+class FeedForward(torch.nn.Module):
     def __init__(self, variables):
         super().__init__()
-        # placeholder for now
+        self.linear1 = torch.nn.Linear(variables["token_dimension"], variables["token_dimension"])
+        self.gelu = torch.nn.GELU()
+        self.linear2 = torch.nn.Linear(variables["token_dimension"], variables["token_dimension"])
         
     def forward(self, x):
-        return x
-            
+        return self.linear2(self.gelu(self.linear1(x)))
+
+# Normalize the values
+class LayerNorm(torch.nn.Module):
+    def __init__(self, emb_dim):
+        super().__init__()
+        self.eps = 1e-5
+        self.scale = torch.nn.Parameter(torch.ones(emb_dim))
+        self.shift = torch.nn.Parameter(torch.zeros(emb_dim))
+
+    def forward(self, x):
+        mean = x.mean(dim=-1, keepdim=True)
+        var = x.var(dim=-1, keepdim=True, unbiased=False)
+        norm_x = (x - mean) / torch.sqrt(var + self.eps)
+        return self.scale * norm_x + self.shift
+
+# decoder back to english
+def generate_text_simple(model, idx, max_new_tokens, context_size):
+    for _ in range(max_new_tokens):
+        idx_cond = idx[:, -context_size:]
+        with torch.no_grad():
+            logits = model(idx_cond)
+        logits = logits[:, -1, :]  
+        probas = torch.softmax(logits, dim=-1)  
+        idx_next = torch.argmax(probas, dim=-1, keepdim=True)  
+        idx = torch.cat((idx, idx_next), dim=1)
+
+    return idx
+
+
+
+
+
+
+
+torch.manual_seed(123)
+
+# input to the untrained model
+input_text = "Hello Universe, glad to meet yo"
+
+encoded = tiktoken.get_encoding("gpt2").encode(input_text)
+encoded_tensor = torch.tensor(encoded).unsqueeze(0)
+
+
+
+
+
+#  and hardware compatibility
+intial_state = {"tokens": 50257, "token_dimension": 768, "context_length": 1024, "drop_rate": 0.1, "heads": 12, "layers": 12, "qkv_bias": False}
 model = model(intial_state)
 
+out = generate_text_simple(
+    model=model,
+    idx=encoded_tensor, 
+    max_new_tokens=6, 
+    context_size=intial_state["context_length"]
+)
 
-tokenizer = tiktoken.get_encoding("gpt2")
-english1 = "Every effort moves you"
-english2 = "Every day holds a"
-
-
-
-token_ID_batch = []
-token_ID_batch.append(torch.tensor(tokenizer.encode(english1)))
-token_ID_batch.append(torch.tensor(tokenizer.encode(english2)))
-
-batch = torch.stack(token_ID_batch, dim=0)
-logits = model(batch)
+print(tiktoken.get_encoding("gpt2").decode((out.squeeze(0)).tolist()))
