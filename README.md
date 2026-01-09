@@ -9,4 +9,8 @@
 
 
 # Single gpt transformer layer
+<<<<<<< HEAD
 ![Single gpt transformer layer](Single_gpt_transformer_layer.jpg)
+=======
+![Single gpt transformer layer](./gpt2/Single_gpt_transformer_layer.jpg)
+>>>>>>> 9b77192 (Readme.md)
