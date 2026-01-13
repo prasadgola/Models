@@ -90,17 +90,6 @@ def generate_and_print_sample(model, tokenizer, device, start_context):
     print(decoded_text.replace("\n", " "))  # Compact print format
     model.train()
 
-
-torch.manual_seed(123)
-
-initial_state = {"tokens": 50257, "token_dimension": 768, "context_length": 1024, "drop_rate": 0.1, "heads": 12, "layers": 12, "qkv_bias": False}
-
-model = model(initial_state)
-device = torch.device("mps" if torch.mps.is_available() else "cpu")
-model.to(device)
-
-optimizer = torch.optim.Adam(model.parameters(), lr=1e-4, weight_decay=0.1)
-
 def text_to_token_ids(text, tokenizer):
     encoded = tokenizer.encode(text, allowed_special={'<|endoftext|>'})
     encoded_tensor = torch.tensor(encoded).unsqueeze(0) # add batch dimension
@@ -110,22 +99,25 @@ def token_ids_to_text(token_ids, tokenizer):
     flat = token_ids.squeeze(0) # remove batch dimension
     return tokenizer.decode(flat.tolist())
 
-# start_context = "Every effort moves you"
-# tokenizer = tiktoken.get_encoding("gpt2")
 
-# token_ids = generate_text_simple(
-#     model=model,
-#     idx=text_to_token_ids(start_context, tokenizer),
-#     max_new_tokens=10,
-#     context_size=initial_state["context_length"]
-# )
+
+torch.manual_seed(123)
+
+initial_state = {"tokens": 50257, "token_dimension": 768, "context_length": 1024, "drop_rate": 0.4, "heads": 12, "layers": 12, "qkv_bias": False}
+
+model = model(initial_state)
+device = torch.device("mps" if torch.mps.is_available() else "cpu")
+model.to(device)
+
+optimizer = torch.optim.Adam(model.parameters(), lr=1e-4, weight_decay=0.1)
+
 
 file_path = "training_data.txt"
 
 with open(file_path, "r", encoding="utf-8") as file:
     text_data = file.read()
 
-
+# print(len(text_data))
 train_ratio = 0.9
 split = int(len(text_data) * train_ratio)
 train_data = text_data[:split]
@@ -133,19 +125,9 @@ validation_data = text_data[split:]
 train_loader = create_dataloader(train_data)
 val_loader = create_dataloader(validation_data)
 
-num_epochs = 10
+
+num_epochs = 1000
 
 tokenizer = tiktoken.get_encoding("gpt2")
 
-train_loss, val_loss, track_tokens_seen = train_model_simple(model, train_loader, val_loader, optimizer, device, num_epochs, eval_freq=1, eval_iter=1, start_context="Hello Universe, glad to meet yo", tokenizer=tokenizer)
-
-
-
-
-
-    
-# torch.manual_seed(123) # For reproducibility due to the shuffling in the data loader
-
-# with torch.no_grad(): # Disable gradient tracking for efficiency because we are not training, yet
-#     train_loss = calc_loss_loader(train_dataloader, model, device)
-#     val_loss = calc_loss_loader(validation_dataloader, model, device)
+train_loss, val_loss, track_tokens_seen = train_model_simple(model, train_loader, val_loader, optimizer, device, num_epochs, eval_freq=1, eval_iter=1, start_context="She raised her eyebrows", tokenizer=tokenizer)
