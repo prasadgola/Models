@@ -5,7 +5,7 @@
 
 # Simple self attention Mechanism
 
-![Simple self attention Mechanism](./References/gpt2/Simpleself_attention_mechanism.jpg)
+![Simple self attention Mechanism](./References/Simpleself_attention_mechanism.jpg)
 
 
 # Single gpt transformer layer
