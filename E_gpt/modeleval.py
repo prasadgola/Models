@@ -3,7 +3,7 @@ import torch.nn as nn
 from torch.nn import functional as F
 
 # Load vocab
-with open("english.txt", 'r', encoding='utf-8') as f:
+with open("./datasets/english.txt", 'r', encoding='utf-8') as f:
     text = f.read()
 
 chars = sorted(list(set(text)))
@@ -156,14 +156,42 @@ class GPTLanguageModel(nn.Module):
             # append sampled index to the running sequence
             idx = torch.cat((idx, idx_next), dim=1) # (B, T+1)
         return idx
+    
+    def generate_streaming(self, idx, max_new_tokens):
+        """Generate tokens one at a time and yield each token"""
+        for _ in range(max_new_tokens):
+            idx_cond = idx[:, -block_size:]
+            logits, loss = self(idx_cond)
+            logits = logits[:, -1, :]
+            probs = F.softmax(logits, dim=-1)
+            idx_next = torch.multinomial(probs, num_samples=1)
+            idx = torch.cat((idx, idx_next), dim=1)
+            
+            # Yield the new token immediately
+            yield idx_next.item()
+
+
 # Load trained model
 model = GPTLanguageModel()
 model.load_state_dict(torch.load('model_weights.pth', map_location=device))
 model = model.to(device)
 model.eval()
 
-# Generate
+# # Generate
+# prompt = input("Enter prompt: ")
+# context = torch.tensor(encode(prompt), dtype=torch.long, device=device).unsqueeze(0)
+# generated = model.generate(context, max_new_tokens=500)
+# print(decode(generated[0].tolist()))
+
+
+
+
+# GPTLanguageModel.generate_streaming = generate_streaming
+
 prompt = input("Enter prompt: ")
 context = torch.tensor(encode(prompt), dtype=torch.long, device=device).unsqueeze(0)
-generated = model.generate(context, max_new_tokens=500)
-print(decode(generated[0].tolist()))
+
+print(prompt, end='', flush=True)  # Show prompt
+for token_id in model.generate_streaming(context, max_new_tokens=500):
+    print(decode([token_id]), end='', flush=True)  # Print each token immediately
+print() 
