@@ -1,12 +1,13 @@
 import torch
 import torch.nn as nn
+import os
 from torch.nn import functional as F
 
 # hyperparameters
-batch_size = 64 # how many independent sequences will we process in parallel?
+batch_size = 128 # how many independent sequences will we process in parallel?
 block_size = 256 # what is the maximum context length for predictions?
-max_iters = 5000
-eval_interval = 500
+max_iters = 12000
+eval_interval = 50
 learning_rate = 3e-4
 device = 'mps' if torch.backends.mps.is_built() else 'cpu'
 eval_iters = 200
@@ -18,8 +19,7 @@ dropout = 0.2
 
 torch.manual_seed(1337)
 
-# wget https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
-with open('english.txt', 'r', encoding='utf-8') as f:
+with open('./datasets/english.txt', 'r', encoding='utf-8') as f:
     text = f.read()
 
 # here are all the unique characters that occur in this text
@@ -203,21 +203,41 @@ print(sum(p.numel() for p in m.parameters())/1e6, 'M parameters')
 # create a PyTorch optimizer
 optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
 
-for iter in range(max_iters):
+if os.path.exists('model_weights.pth'):
+    try:
+        m.load_state_dict(torch.load('model_weights.pth'))
+        print("Loaded existing model_weights.pth - continuing training")
+    except:
+        print("Starting fresh training")
+else:
+    print("Starting fresh training")
 
-    # every once in a while evaluate the loss on train and val sets
-    if iter % eval_interval == 0 or iter == max_iters - 1:
-        losses = estimate_loss()
-        print(f"step {iter}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}")
+try:
+    for iter in range(max_iters):
 
-    # sample a batch of data
-    xb, yb = get_batch('train')
+        # every once in a while evaluate the loss on train and val sets
+        if iter % eval_interval == 0 or iter == max_iters - 1:
+            losses = estimate_loss()
+            print(f"step {iter}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}")
 
-    # evaluate the loss
-    logits, loss = model(xb, yb)
-    optimizer.zero_grad(set_to_none=True)
-    loss.backward()
-    optimizer.step()
+        # sample a batch of data
+        xb, yb = get_batch('train')
+
+        # evaluate the loss
+        logits, loss = model(xb, yb)
+        optimizer.zero_grad(set_to_none=True)
+        loss.backward()
+        optimizer.step()
+
+except KeyboardInterrupt:
+    print(f"\n\nTraining interrupted at step {iter}")
+    losses = estimate_loss()
+    print(f"Final: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}")
+
+finally:
+    # Save model whether interrupted or completed
+    torch.save(m.state_dict(), 'model_weights.pth')
+    print("Model weights saved to model_weights.pth")
 
 torch.save(m.state_dict(), 'model_weights.pth')
 print("Model weights saved to model_weights.pth")
