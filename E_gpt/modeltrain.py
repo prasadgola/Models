@@ -1,3 +1,4 @@
+# 16.772518 M parameters model training on 1GB huggingface english text data on M4 pro 48GB Unified memory
 import torch
 import torch.nn as nn
 import os
