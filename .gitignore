@@ -2,9 +2,9 @@
 __pycache__
 
 # 1GB huggingface english text data
-datasets/english_1GB.txt
+datasets
 
 
-datasets/Huggingface
+Huggingface
 
 model_weights.pth
