@@ -18,18 +18,6 @@ n_layer = 6
 dropout = 0.2
 # ------------
 
-# batch_size = 64       # Reduced from 128
-# block_size = 128      # Reduced from 256
-# max_iters = 2000      # Reduced from 5000
-# eval_interval = 100   # Less frequent evals
-# learning_rate = 3e-4
-# device = 'mps' if torch.backends.mps.is_built() else 'cpu'
-# eval_iters = 50       # Reduced from 200
-# n_embd = 192          # Reduced from 384
-# n_head = 4            # Reduced from 6
-# n_layer = 4           # Reduced from 6
-# dropout = 0.2
-
 torch.manual_seed(1337)
 
 with open('ek.txt', 'r', encoding='utf-8') as f:

@@ -3,7 +3,7 @@ import torch.nn as nn
 from torch.nn import functional as F
 
 # Load vocab
-with open("english.txt", 'r', encoding='utf-8') as f:
+with open("ek.txt", 'r', encoding='utf-8') as f:
     text = f.read()
 
 chars = sorted(list(set(text)))
@@ -15,12 +15,12 @@ decode = lambda l: ''.join([chars_ids[i] for i in l])
 
 # Hyperparameters (must match training)
 vocab_size = len(chars)
-chunk_size = 256
-n_embd = 384
+chunk_size = 128
+n_embd = 192
 n_head = 6
 n_layer = 6
 dropout = 0.2
-block_size = 256
+block_size = 128
 device = 'mps' if torch.backends.mps.is_built() else 'cpu'
 
 class Head(nn.Module):
