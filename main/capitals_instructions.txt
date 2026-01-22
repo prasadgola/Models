@@ -1,0 +1,472 @@
+<|instruction|>What is the capital of United States?<|response|>Washington D.C.<|end|>
+<|instruction|>What is the capital city of United States?<|response|>Washington D.C.<|end|>
+<|instruction|>Tell me the capital of United States<|response|>Washington D.C.<|end|>
+<|instruction|>Which city is the capital of United States?<|response|>Washington D.C.<|end|>
+<|instruction|>What city is the capital of United States?<|response|>Washington D.C.<|end|>
+<|instruction|>United States's capital is?<|response|>Washington D.C.<|end|>
+<|instruction|>Capital of United States?<|response|>Washington D.C.<|end|>
+<|instruction|>Do you know the capital of United States?<|response|>Washington D.C.<|end|>
+<|instruction|>What is the capital of Canada?<|response|>Ottawa<|end|>
+<|instruction|>What is the capital city of Canada?<|response|>Ottawa<|end|>
+<|instruction|>Tell me the capital of Canada<|response|>Ottawa<|end|>
+<|instruction|>Which city is the capital of Canada?<|response|>Ottawa<|end|>
+<|instruction|>What city is the capital of Canada?<|response|>Ottawa<|end|>
+<|instruction|>Canada's capital is?<|response|>Ottawa<|end|>
+<|instruction|>Capital of Canada?<|response|>Ottawa<|end|>
+<|instruction|>Do you know the capital of Canada?<|response|>Ottawa<|end|>
+<|instruction|>What is the capital of Mexico?<|response|>Mexico City<|end|>
+<|instruction|>What is the capital city of Mexico?<|response|>Mexico City<|end|>
+<|instruction|>Tell me the capital of Mexico<|response|>Mexico City<|end|>
+<|instruction|>Which city is the capital of Mexico?<|response|>Mexico City<|end|>
+<|instruction|>What city is the capital of Mexico?<|response|>Mexico City<|end|>
+<|instruction|>Mexico's capital is?<|response|>Mexico City<|end|>
+<|instruction|>Capital of Mexico?<|response|>Mexico City<|end|>
+<|instruction|>Do you know the capital of Mexico?<|response|>Mexico City<|end|>
+<|instruction|>What is the capital of Brazil?<|response|>Brasília<|end|>
+<|instruction|>What is the capital city of Brazil?<|response|>Brasília<|end|>
+<|instruction|>Tell me the capital of Brazil<|response|>Brasília<|end|>
+<|instruction|>Which city is the capital of Brazil?<|response|>Brasília<|end|>
+<|instruction|>What city is the capital of Brazil?<|response|>Brasília<|end|>
+<|instruction|>Brazil's capital is?<|response|>Brasília<|end|>
+<|instruction|>Capital of Brazil?<|response|>Brasília<|end|>
+<|instruction|>Do you know the capital of Brazil?<|response|>Brasília<|end|>
+<|instruction|>What is the capital of Argentina?<|response|>Buenos Aires<|end|>
+<|instruction|>What is the capital city of Argentina?<|response|>Buenos Aires<|end|>
+<|instruction|>Tell me the capital of Argentina<|response|>Buenos Aires<|end|>
+<|instruction|>Which city is the capital of Argentina?<|response|>Buenos Aires<|end|>
+<|instruction|>What city is the capital of Argentina?<|response|>Buenos Aires<|end|>
+<|instruction|>Argentina's capital is?<|response|>Buenos Aires<|end|>
+<|instruction|>Capital of Argentina?<|response|>Buenos Aires<|end|>
+<|instruction|>Do you know the capital of Argentina?<|response|>Buenos Aires<|end|>
+<|instruction|>What is the capital of Chile?<|response|>Santiago<|end|>
+<|instruction|>What is the capital city of Chile?<|response|>Santiago<|end|>
+<|instruction|>Tell me the capital of Chile<|response|>Santiago<|end|>
+<|instruction|>Which city is the capital of Chile?<|response|>Santiago<|end|>
+<|instruction|>What city is the capital of Chile?<|response|>Santiago<|end|>
+<|instruction|>Chile's capital is?<|response|>Santiago<|end|>
+<|instruction|>Capital of Chile?<|response|>Santiago<|end|>
+<|instruction|>Do you know the capital of Chile?<|response|>Santiago<|end|>
+<|instruction|>What is the capital of Colombia?<|response|>Bogotá<|end|>
+<|instruction|>What is the capital city of Colombia?<|response|>Bogotá<|end|>
+<|instruction|>Tell me the capital of Colombia<|response|>Bogotá<|end|>
+<|instruction|>Which city is the capital of Colombia?<|response|>Bogotá<|end|>
+<|instruction|>What city is the capital of Colombia?<|response|>Bogotá<|end|>
+<|instruction|>Colombia's capital is?<|response|>Bogotá<|end|>
+<|instruction|>Capital of Colombia?<|response|>Bogotá<|end|>
+<|instruction|>Do you know the capital of Colombia?<|response|>Bogotá<|end|>
+<|instruction|>What is the capital of Peru?<|response|>Lima<|end|>
+<|instruction|>What is the capital city of Peru?<|response|>Lima<|end|>
+<|instruction|>Tell me the capital of Peru<|response|>Lima<|end|>
+<|instruction|>Which city is the capital of Peru?<|response|>Lima<|end|>
+<|instruction|>What city is the capital of Peru?<|response|>Lima<|end|>
+<|instruction|>Peru's capital is?<|response|>Lima<|end|>
+<|instruction|>Capital of Peru?<|response|>Lima<|end|>
+<|instruction|>Do you know the capital of Peru?<|response|>Lima<|end|>
+<|instruction|>What is the capital of Venezuela?<|response|>Caracas<|end|>
+<|instruction|>What is the capital city of Venezuela?<|response|>Caracas<|end|>
+<|instruction|>Tell me the capital of Venezuela<|response|>Caracas<|end|>
+<|instruction|>Which city is the capital of Venezuela?<|response|>Caracas<|end|>
+<|instruction|>What city is the capital of Venezuela?<|response|>Caracas<|end|>
+<|instruction|>Venezuela's capital is?<|response|>Caracas<|end|>
+<|instruction|>Capital of Venezuela?<|response|>Caracas<|end|>
+<|instruction|>Do you know the capital of Venezuela?<|response|>Caracas<|end|>
+<|instruction|>What is the capital of United Kingdom?<|response|>London<|end|>
+<|instruction|>What is the capital city of United Kingdom?<|response|>London<|end|>
+<|instruction|>Tell me the capital of United Kingdom<|response|>London<|end|>
+<|instruction|>Which city is the capital of United Kingdom?<|response|>London<|end|>
+<|instruction|>What city is the capital of United Kingdom?<|response|>London<|end|>
+<|instruction|>United Kingdom's capital is?<|response|>London<|end|>
+<|instruction|>Capital of United Kingdom?<|response|>London<|end|>
+<|instruction|>Do you know the capital of United Kingdom?<|response|>London<|end|>
+<|instruction|>What is the capital of France?<|response|>Paris<|end|>
+<|instruction|>What is the capital city of France?<|response|>Paris<|end|>
+<|instruction|>Tell me the capital of France<|response|>Paris<|end|>
+<|instruction|>Which city is the capital of France?<|response|>Paris<|end|>
+<|instruction|>What city is the capital of France?<|response|>Paris<|end|>
+<|instruction|>France's capital is?<|response|>Paris<|end|>
+<|instruction|>Capital of France?<|response|>Paris<|end|>
+<|instruction|>Do you know the capital of France?<|response|>Paris<|end|>
+<|instruction|>What is the capital of Germany?<|response|>Berlin<|end|>
+<|instruction|>What is the capital city of Germany?<|response|>Berlin<|end|>
+<|instruction|>Tell me the capital of Germany<|response|>Berlin<|end|>
+<|instruction|>Which city is the capital of Germany?<|response|>Berlin<|end|>
+<|instruction|>What city is the capital of Germany?<|response|>Berlin<|end|>
+<|instruction|>Germany's capital is?<|response|>Berlin<|end|>
+<|instruction|>Capital of Germany?<|response|>Berlin<|end|>
+<|instruction|>Do you know the capital of Germany?<|response|>Berlin<|end|>
+<|instruction|>What is the capital of Italy?<|response|>Rome<|end|>
+<|instruction|>What is the capital city of Italy?<|response|>Rome<|end|>
+<|instruction|>Tell me the capital of Italy<|response|>Rome<|end|>
+<|instruction|>Which city is the capital of Italy?<|response|>Rome<|end|>
+<|instruction|>What city is the capital of Italy?<|response|>Rome<|end|>
+<|instruction|>Italy's capital is?<|response|>Rome<|end|>
+<|instruction|>Capital of Italy?<|response|>Rome<|end|>
+<|instruction|>Do you know the capital of Italy?<|response|>Rome<|end|>
+<|instruction|>What is the capital of Spain?<|response|>Madrid<|end|>
+<|instruction|>What is the capital city of Spain?<|response|>Madrid<|end|>
+<|instruction|>Tell me the capital of Spain<|response|>Madrid<|end|>
+<|instruction|>Which city is the capital of Spain?<|response|>Madrid<|end|>
+<|instruction|>What city is the capital of Spain?<|response|>Madrid<|end|>
+<|instruction|>Spain's capital is?<|response|>Madrid<|end|>
+<|instruction|>Capital of Spain?<|response|>Madrid<|end|>
+<|instruction|>Do you know the capital of Spain?<|response|>Madrid<|end|>
+<|instruction|>What is the capital of Portugal?<|response|>Lisbon<|end|>
+<|instruction|>What is the capital city of Portugal?<|response|>Lisbon<|end|>
+<|instruction|>Tell me the capital of Portugal<|response|>Lisbon<|end|>
+<|instruction|>Which city is the capital of Portugal?<|response|>Lisbon<|end|>
+<|instruction|>What city is the capital of Portugal?<|response|>Lisbon<|end|>
+<|instruction|>Portugal's capital is?<|response|>Lisbon<|end|>
+<|instruction|>Capital of Portugal?<|response|>Lisbon<|end|>
+<|instruction|>Do you know the capital of Portugal?<|response|>Lisbon<|end|>
+<|instruction|>What is the capital of Netherlands?<|response|>Amsterdam<|end|>
+<|instruction|>What is the capital city of Netherlands?<|response|>Amsterdam<|end|>
+<|instruction|>Tell me the capital of Netherlands<|response|>Amsterdam<|end|>
+<|instruction|>Which city is the capital of Netherlands?<|response|>Amsterdam<|end|>
+<|instruction|>What city is the capital of Netherlands?<|response|>Amsterdam<|end|>
+<|instruction|>Netherlands's capital is?<|response|>Amsterdam<|end|>
+<|instruction|>Capital of Netherlands?<|response|>Amsterdam<|end|>
+<|instruction|>Do you know the capital of Netherlands?<|response|>Amsterdam<|end|>
+<|instruction|>What is the capital of Belgium?<|response|>Brussels<|end|>
+<|instruction|>What is the capital city of Belgium?<|response|>Brussels<|end|>
+<|instruction|>Tell me the capital of Belgium<|response|>Brussels<|end|>
+<|instruction|>Which city is the capital of Belgium?<|response|>Brussels<|end|>
+<|instruction|>What city is the capital of Belgium?<|response|>Brussels<|end|>
+<|instruction|>Belgium's capital is?<|response|>Brussels<|end|>
+<|instruction|>Capital of Belgium?<|response|>Brussels<|end|>
+<|instruction|>Do you know the capital of Belgium?<|response|>Brussels<|end|>
+<|instruction|>What is the capital of Switzerland?<|response|>Bern<|end|>
+<|instruction|>What is the capital city of Switzerland?<|response|>Bern<|end|>
+<|instruction|>Tell me the capital of Switzerland<|response|>Bern<|end|>
+<|instruction|>Which city is the capital of Switzerland?<|response|>Bern<|end|>
+<|instruction|>What city is the capital of Switzerland?<|response|>Bern<|end|>
+<|instruction|>Switzerland's capital is?<|response|>Bern<|end|>
+<|instruction|>Capital of Switzerland?<|response|>Bern<|end|>
+<|instruction|>Do you know the capital of Switzerland?<|response|>Bern<|end|>
+<|instruction|>What is the capital of Austria?<|response|>Vienna<|end|>
+<|instruction|>What is the capital city of Austria?<|response|>Vienna<|end|>
+<|instruction|>Tell me the capital of Austria<|response|>Vienna<|end|>
+<|instruction|>Which city is the capital of Austria?<|response|>Vienna<|end|>
+<|instruction|>What city is the capital of Austria?<|response|>Vienna<|end|>
+<|instruction|>Austria's capital is?<|response|>Vienna<|end|>
+<|instruction|>Capital of Austria?<|response|>Vienna<|end|>
+<|instruction|>Do you know the capital of Austria?<|response|>Vienna<|end|>
+<|instruction|>What is the capital of Poland?<|response|>Warsaw<|end|>
+<|instruction|>What is the capital city of Poland?<|response|>Warsaw<|end|>
+<|instruction|>Tell me the capital of Poland<|response|>Warsaw<|end|>
+<|instruction|>Which city is the capital of Poland?<|response|>Warsaw<|end|>
+<|instruction|>What city is the capital of Poland?<|response|>Warsaw<|end|>
+<|instruction|>Poland's capital is?<|response|>Warsaw<|end|>
+<|instruction|>Capital of Poland?<|response|>Warsaw<|end|>
+<|instruction|>Do you know the capital of Poland?<|response|>Warsaw<|end|>
+<|instruction|>What is the capital of Czech Republic?<|response|>Prague<|end|>
+<|instruction|>What is the capital city of Czech Republic?<|response|>Prague<|end|>
+<|instruction|>Tell me the capital of Czech Republic<|response|>Prague<|end|>
+<|instruction|>Which city is the capital of Czech Republic?<|response|>Prague<|end|>
+<|instruction|>What city is the capital of Czech Republic?<|response|>Prague<|end|>
+<|instruction|>Czech Republic's capital is?<|response|>Prague<|end|>
+<|instruction|>Capital of Czech Republic?<|response|>Prague<|end|>
+<|instruction|>Do you know the capital of Czech Republic?<|response|>Prague<|end|>
+<|instruction|>What is the capital of Greece?<|response|>Athens<|end|>
+<|instruction|>What is the capital city of Greece?<|response|>Athens<|end|>
+<|instruction|>Tell me the capital of Greece<|response|>Athens<|end|>
+<|instruction|>Which city is the capital of Greece?<|response|>Athens<|end|>
+<|instruction|>What city is the capital of Greece?<|response|>Athens<|end|>
+<|instruction|>Greece's capital is?<|response|>Athens<|end|>
+<|instruction|>Capital of Greece?<|response|>Athens<|end|>
+<|instruction|>Do you know the capital of Greece?<|response|>Athens<|end|>
+<|instruction|>What is the capital of Russia?<|response|>Moscow<|end|>
+<|instruction|>What is the capital city of Russia?<|response|>Moscow<|end|>
+<|instruction|>Tell me the capital of Russia<|response|>Moscow<|end|>
+<|instruction|>Which city is the capital of Russia?<|response|>Moscow<|end|>
+<|instruction|>What city is the capital of Russia?<|response|>Moscow<|end|>
+<|instruction|>Russia's capital is?<|response|>Moscow<|end|>
+<|instruction|>Capital of Russia?<|response|>Moscow<|end|>
+<|instruction|>Do you know the capital of Russia?<|response|>Moscow<|end|>
+<|instruction|>What is the capital of Ukraine?<|response|>Kyiv<|end|>
+<|instruction|>What is the capital city of Ukraine?<|response|>Kyiv<|end|>
+<|instruction|>Tell me the capital of Ukraine<|response|>Kyiv<|end|>
+<|instruction|>Which city is the capital of Ukraine?<|response|>Kyiv<|end|>
+<|instruction|>What city is the capital of Ukraine?<|response|>Kyiv<|end|>
+<|instruction|>Ukraine's capital is?<|response|>Kyiv<|end|>
+<|instruction|>Capital of Ukraine?<|response|>Kyiv<|end|>
+<|instruction|>Do you know the capital of Ukraine?<|response|>Kyiv<|end|>
+<|instruction|>What is the capital of Sweden?<|response|>Stockholm<|end|>
+<|instruction|>What is the capital city of Sweden?<|response|>Stockholm<|end|>
+<|instruction|>Tell me the capital of Sweden<|response|>Stockholm<|end|>
+<|instruction|>Which city is the capital of Sweden?<|response|>Stockholm<|end|>
+<|instruction|>What city is the capital of Sweden?<|response|>Stockholm<|end|>
+<|instruction|>Sweden's capital is?<|response|>Stockholm<|end|>
+<|instruction|>Capital of Sweden?<|response|>Stockholm<|end|>
+<|instruction|>Do you know the capital of Sweden?<|response|>Stockholm<|end|>
+<|instruction|>What is the capital of Norway?<|response|>Oslo<|end|>
+<|instruction|>What is the capital city of Norway?<|response|>Oslo<|end|>
+<|instruction|>Tell me the capital of Norway<|response|>Oslo<|end|>
+<|instruction|>Which city is the capital of Norway?<|response|>Oslo<|end|>
+<|instruction|>What city is the capital of Norway?<|response|>Oslo<|end|>
+<|instruction|>Norway's capital is?<|response|>Oslo<|end|>
+<|instruction|>Capital of Norway?<|response|>Oslo<|end|>
+<|instruction|>Do you know the capital of Norway?<|response|>Oslo<|end|>
+<|instruction|>What is the capital of Denmark?<|response|>Copenhagen<|end|>
+<|instruction|>What is the capital city of Denmark?<|response|>Copenhagen<|end|>
+<|instruction|>Tell me the capital of Denmark<|response|>Copenhagen<|end|>
+<|instruction|>Which city is the capital of Denmark?<|response|>Copenhagen<|end|>
+<|instruction|>What city is the capital of Denmark?<|response|>Copenhagen<|end|>
+<|instruction|>Denmark's capital is?<|response|>Copenhagen<|end|>
+<|instruction|>Capital of Denmark?<|response|>Copenhagen<|end|>
+<|instruction|>Do you know the capital of Denmark?<|response|>Copenhagen<|end|>
+<|instruction|>What is the capital of Finland?<|response|>Helsinki<|end|>
+<|instruction|>What is the capital city of Finland?<|response|>Helsinki<|end|>
+<|instruction|>Tell me the capital of Finland<|response|>Helsinki<|end|>
+<|instruction|>Which city is the capital of Finland?<|response|>Helsinki<|end|>
+<|instruction|>What city is the capital of Finland?<|response|>Helsinki<|end|>
+<|instruction|>Finland's capital is?<|response|>Helsinki<|end|>
+<|instruction|>Capital of Finland?<|response|>Helsinki<|end|>
+<|instruction|>Do you know the capital of Finland?<|response|>Helsinki<|end|>
+<|instruction|>What is the capital of Ireland?<|response|>Dublin<|end|>
+<|instruction|>What is the capital city of Ireland?<|response|>Dublin<|end|>
+<|instruction|>Tell me the capital of Ireland<|response|>Dublin<|end|>
+<|instruction|>Which city is the capital of Ireland?<|response|>Dublin<|end|>
+<|instruction|>What city is the capital of Ireland?<|response|>Dublin<|end|>
+<|instruction|>Ireland's capital is?<|response|>Dublin<|end|>
+<|instruction|>Capital of Ireland?<|response|>Dublin<|end|>
+<|instruction|>Do you know the capital of Ireland?<|response|>Dublin<|end|>
+<|instruction|>What is the capital of China?<|response|>Beijing<|end|>
+<|instruction|>What is the capital city of China?<|response|>Beijing<|end|>
+<|instruction|>Tell me the capital of China<|response|>Beijing<|end|>
+<|instruction|>Which city is the capital of China?<|response|>Beijing<|end|>
+<|instruction|>What city is the capital of China?<|response|>Beijing<|end|>
+<|instruction|>China's capital is?<|response|>Beijing<|end|>
+<|instruction|>Capital of China?<|response|>Beijing<|end|>
+<|instruction|>Do you know the capital of China?<|response|>Beijing<|end|>
+<|instruction|>What is the capital of Japan?<|response|>Tokyo<|end|>
+<|instruction|>What is the capital city of Japan?<|response|>Tokyo<|end|>
+<|instruction|>Tell me the capital of Japan<|response|>Tokyo<|end|>
+<|instruction|>Which city is the capital of Japan?<|response|>Tokyo<|end|>
+<|instruction|>What city is the capital of Japan?<|response|>Tokyo<|end|>
+<|instruction|>Japan's capital is?<|response|>Tokyo<|end|>
+<|instruction|>Capital of Japan?<|response|>Tokyo<|end|>
+<|instruction|>Do you know the capital of Japan?<|response|>Tokyo<|end|>
+<|instruction|>What is the capital of India?<|response|>New Delhi<|end|>
+<|instruction|>What is the capital city of India?<|response|>New Delhi<|end|>
+<|instruction|>Tell me the capital of India<|response|>New Delhi<|end|>
+<|instruction|>Which city is the capital of India?<|response|>New Delhi<|end|>
+<|instruction|>What city is the capital of India?<|response|>New Delhi<|end|>
+<|instruction|>India's capital is?<|response|>New Delhi<|end|>
+<|instruction|>Capital of India?<|response|>New Delhi<|end|>
+<|instruction|>Do you know the capital of India?<|response|>New Delhi<|end|>
+<|instruction|>What is the capital of South Korea?<|response|>Seoul<|end|>
+<|instruction|>What is the capital city of South Korea?<|response|>Seoul<|end|>
+<|instruction|>Tell me the capital of South Korea<|response|>Seoul<|end|>
+<|instruction|>Which city is the capital of South Korea?<|response|>Seoul<|end|>
+<|instruction|>What city is the capital of South Korea?<|response|>Seoul<|end|>
+<|instruction|>South Korea's capital is?<|response|>Seoul<|end|>
+<|instruction|>Capital of South Korea?<|response|>Seoul<|end|>
+<|instruction|>Do you know the capital of South Korea?<|response|>Seoul<|end|>
+<|instruction|>What is the capital of Thailand?<|response|>Bangkok<|end|>
+<|instruction|>What is the capital city of Thailand?<|response|>Bangkok<|end|>
+<|instruction|>Tell me the capital of Thailand<|response|>Bangkok<|end|>
+<|instruction|>Which city is the capital of Thailand?<|response|>Bangkok<|end|>
+<|instruction|>What city is the capital of Thailand?<|response|>Bangkok<|end|>
+<|instruction|>Thailand's capital is?<|response|>Bangkok<|end|>
+<|instruction|>Capital of Thailand?<|response|>Bangkok<|end|>
+<|instruction|>Do you know the capital of Thailand?<|response|>Bangkok<|end|>
+<|instruction|>What is the capital of Vietnam?<|response|>Hanoi<|end|>
+<|instruction|>What is the capital city of Vietnam?<|response|>Hanoi<|end|>
+<|instruction|>Tell me the capital of Vietnam<|response|>Hanoi<|end|>
+<|instruction|>Which city is the capital of Vietnam?<|response|>Hanoi<|end|>
+<|instruction|>What city is the capital of Vietnam?<|response|>Hanoi<|end|>
+<|instruction|>Vietnam's capital is?<|response|>Hanoi<|end|>
+<|instruction|>Capital of Vietnam?<|response|>Hanoi<|end|>
+<|instruction|>Do you know the capital of Vietnam?<|response|>Hanoi<|end|>
+<|instruction|>What is the capital of Indonesia?<|response|>Jakarta<|end|>
+<|instruction|>What is the capital city of Indonesia?<|response|>Jakarta<|end|>
+<|instruction|>Tell me the capital of Indonesia<|response|>Jakarta<|end|>
+<|instruction|>Which city is the capital of Indonesia?<|response|>Jakarta<|end|>
+<|instruction|>What city is the capital of Indonesia?<|response|>Jakarta<|end|>
+<|instruction|>Indonesia's capital is?<|response|>Jakarta<|end|>
+<|instruction|>Capital of Indonesia?<|response|>Jakarta<|end|>
+<|instruction|>Do you know the capital of Indonesia?<|response|>Jakarta<|end|>
+<|instruction|>What is the capital of Philippines?<|response|>Manila<|end|>
+<|instruction|>What is the capital city of Philippines?<|response|>Manila<|end|>
+<|instruction|>Tell me the capital of Philippines<|response|>Manila<|end|>
+<|instruction|>Which city is the capital of Philippines?<|response|>Manila<|end|>
+<|instruction|>What city is the capital of Philippines?<|response|>Manila<|end|>
+<|instruction|>Philippines's capital is?<|response|>Manila<|end|>
+<|instruction|>Capital of Philippines?<|response|>Manila<|end|>
+<|instruction|>Do you know the capital of Philippines?<|response|>Manila<|end|>
+<|instruction|>What is the capital of Malaysia?<|response|>Kuala Lumpur<|end|>
+<|instruction|>What is the capital city of Malaysia?<|response|>Kuala Lumpur<|end|>
+<|instruction|>Tell me the capital of Malaysia<|response|>Kuala Lumpur<|end|>
+<|instruction|>Which city is the capital of Malaysia?<|response|>Kuala Lumpur<|end|>
+<|instruction|>What city is the capital of Malaysia?<|response|>Kuala Lumpur<|end|>
+<|instruction|>Malaysia's capital is?<|response|>Kuala Lumpur<|end|>
+<|instruction|>Capital of Malaysia?<|response|>Kuala Lumpur<|end|>
+<|instruction|>Do you know the capital of Malaysia?<|response|>Kuala Lumpur<|end|>
+<|instruction|>What is the capital of Singapore?<|response|>Singapore<|end|>
+<|instruction|>What is the capital city of Singapore?<|response|>Singapore<|end|>
+<|instruction|>Tell me the capital of Singapore<|response|>Singapore<|end|>
+<|instruction|>Which city is the capital of Singapore?<|response|>Singapore<|end|>
+<|instruction|>What city is the capital of Singapore?<|response|>Singapore<|end|>
+<|instruction|>Singapore's capital is?<|response|>Singapore<|end|>
+<|instruction|>Capital of Singapore?<|response|>Singapore<|end|>
+<|instruction|>Do you know the capital of Singapore?<|response|>Singapore<|end|>
+<|instruction|>What is the capital of Pakistan?<|response|>Islamabad<|end|>
+<|instruction|>What is the capital city of Pakistan?<|response|>Islamabad<|end|>
+<|instruction|>Tell me the capital of Pakistan<|response|>Islamabad<|end|>
+<|instruction|>Which city is the capital of Pakistan?<|response|>Islamabad<|end|>
+<|instruction|>What city is the capital of Pakistan?<|response|>Islamabad<|end|>
+<|instruction|>Pakistan's capital is?<|response|>Islamabad<|end|>
+<|instruction|>Capital of Pakistan?<|response|>Islamabad<|end|>
+<|instruction|>Do you know the capital of Pakistan?<|response|>Islamabad<|end|>
+<|instruction|>What is the capital of Bangladesh?<|response|>Dhaka<|end|>
+<|instruction|>What is the capital city of Bangladesh?<|response|>Dhaka<|end|>
+<|instruction|>Tell me the capital of Bangladesh<|response|>Dhaka<|end|>
+<|instruction|>Which city is the capital of Bangladesh?<|response|>Dhaka<|end|>
+<|instruction|>What city is the capital of Bangladesh?<|response|>Dhaka<|end|>
+<|instruction|>Bangladesh's capital is?<|response|>Dhaka<|end|>
+<|instruction|>Capital of Bangladesh?<|response|>Dhaka<|end|>
+<|instruction|>Do you know the capital of Bangladesh?<|response|>Dhaka<|end|>
+<|instruction|>What is the capital of Afghanistan?<|response|>Kabul<|end|>
+<|instruction|>What is the capital city of Afghanistan?<|response|>Kabul<|end|>
+<|instruction|>Tell me the capital of Afghanistan<|response|>Kabul<|end|>
+<|instruction|>Which city is the capital of Afghanistan?<|response|>Kabul<|end|>
+<|instruction|>What city is the capital of Afghanistan?<|response|>Kabul<|end|>
+<|instruction|>Afghanistan's capital is?<|response|>Kabul<|end|>
+<|instruction|>Capital of Afghanistan?<|response|>Kabul<|end|>
+<|instruction|>Do you know the capital of Afghanistan?<|response|>Kabul<|end|>
+<|instruction|>What is the capital of Iran?<|response|>Tehran<|end|>
+<|instruction|>What is the capital city of Iran?<|response|>Tehran<|end|>
+<|instruction|>Tell me the capital of Iran<|response|>Tehran<|end|>
+<|instruction|>Which city is the capital of Iran?<|response|>Tehran<|end|>
+<|instruction|>What city is the capital of Iran?<|response|>Tehran<|end|>
+<|instruction|>Iran's capital is?<|response|>Tehran<|end|>
+<|instruction|>Capital of Iran?<|response|>Tehran<|end|>
+<|instruction|>Do you know the capital of Iran?<|response|>Tehran<|end|>
+<|instruction|>What is the capital of Iraq?<|response|>Baghdad<|end|>
+<|instruction|>What is the capital city of Iraq?<|response|>Baghdad<|end|>
+<|instruction|>Tell me the capital of Iraq<|response|>Baghdad<|end|>
+<|instruction|>Which city is the capital of Iraq?<|response|>Baghdad<|end|>
+<|instruction|>What city is the capital of Iraq?<|response|>Baghdad<|end|>
+<|instruction|>Iraq's capital is?<|response|>Baghdad<|end|>
+<|instruction|>Capital of Iraq?<|response|>Baghdad<|end|>
+<|instruction|>Do you know the capital of Iraq?<|response|>Baghdad<|end|>
+<|instruction|>What is the capital of Saudi Arabia?<|response|>Riyadh<|end|>
+<|instruction|>What is the capital city of Saudi Arabia?<|response|>Riyadh<|end|>
+<|instruction|>Tell me the capital of Saudi Arabia<|response|>Riyadh<|end|>
+<|instruction|>Which city is the capital of Saudi Arabia?<|response|>Riyadh<|end|>
+<|instruction|>What city is the capital of Saudi Arabia?<|response|>Riyadh<|end|>
+<|instruction|>Saudi Arabia's capital is?<|response|>Riyadh<|end|>
+<|instruction|>Capital of Saudi Arabia?<|response|>Riyadh<|end|>
+<|instruction|>Do you know the capital of Saudi Arabia?<|response|>Riyadh<|end|>
+<|instruction|>What is the capital of Israel?<|response|>Jerusalem<|end|>
+<|instruction|>What is the capital city of Israel?<|response|>Jerusalem<|end|>
+<|instruction|>Tell me the capital of Israel<|response|>Jerusalem<|end|>
+<|instruction|>Which city is the capital of Israel?<|response|>Jerusalem<|end|>
+<|instruction|>What city is the capital of Israel?<|response|>Jerusalem<|end|>
+<|instruction|>Israel's capital is?<|response|>Jerusalem<|end|>
+<|instruction|>Capital of Israel?<|response|>Jerusalem<|end|>
+<|instruction|>Do you know the capital of Israel?<|response|>Jerusalem<|end|>
+<|instruction|>What is the capital of Turkey?<|response|>Ankara<|end|>
+<|instruction|>What is the capital city of Turkey?<|response|>Ankara<|end|>
+<|instruction|>Tell me the capital of Turkey<|response|>Ankara<|end|>
+<|instruction|>Which city is the capital of Turkey?<|response|>Ankara<|end|>
+<|instruction|>What city is the capital of Turkey?<|response|>Ankara<|end|>
+<|instruction|>Turkey's capital is?<|response|>Ankara<|end|>
+<|instruction|>Capital of Turkey?<|response|>Ankara<|end|>
+<|instruction|>Do you know the capital of Turkey?<|response|>Ankara<|end|>
+<|instruction|>What is the capital of Egypt?<|response|>Cairo<|end|>
+<|instruction|>What is the capital city of Egypt?<|response|>Cairo<|end|>
+<|instruction|>Tell me the capital of Egypt<|response|>Cairo<|end|>
+<|instruction|>Which city is the capital of Egypt?<|response|>Cairo<|end|>
+<|instruction|>What city is the capital of Egypt?<|response|>Cairo<|end|>
+<|instruction|>Egypt's capital is?<|response|>Cairo<|end|>
+<|instruction|>Capital of Egypt?<|response|>Cairo<|end|>
+<|instruction|>Do you know the capital of Egypt?<|response|>Cairo<|end|>
+<|instruction|>What is the capital of South Africa?<|response|>Pretoria<|end|>
+<|instruction|>What is the capital city of South Africa?<|response|>Pretoria<|end|>
+<|instruction|>Tell me the capital of South Africa<|response|>Pretoria<|end|>
+<|instruction|>Which city is the capital of South Africa?<|response|>Pretoria<|end|>
+<|instruction|>What city is the capital of South Africa?<|response|>Pretoria<|end|>
+<|instruction|>South Africa's capital is?<|response|>Pretoria<|end|>
+<|instruction|>Capital of South Africa?<|response|>Pretoria<|end|>
+<|instruction|>Do you know the capital of South Africa?<|response|>Pretoria<|end|>
+<|instruction|>What is the capital of Nigeria?<|response|>Abuja<|end|>
+<|instruction|>What is the capital city of Nigeria?<|response|>Abuja<|end|>
+<|instruction|>Tell me the capital of Nigeria<|response|>Abuja<|end|>
+<|instruction|>Which city is the capital of Nigeria?<|response|>Abuja<|end|>
+<|instruction|>What city is the capital of Nigeria?<|response|>Abuja<|end|>
+<|instruction|>Nigeria's capital is?<|response|>Abuja<|end|>
+<|instruction|>Capital of Nigeria?<|response|>Abuja<|end|>
+<|instruction|>Do you know the capital of Nigeria?<|response|>Abuja<|end|>
+<|instruction|>What is the capital of Kenya?<|response|>Nairobi<|end|>
+<|instruction|>What is the capital city of Kenya?<|response|>Nairobi<|end|>
+<|instruction|>Tell me the capital of Kenya<|response|>Nairobi<|end|>
+<|instruction|>Which city is the capital of Kenya?<|response|>Nairobi<|end|>
+<|instruction|>What city is the capital of Kenya?<|response|>Nairobi<|end|>
+<|instruction|>Kenya's capital is?<|response|>Nairobi<|end|>
+<|instruction|>Capital of Kenya?<|response|>Nairobi<|end|>
+<|instruction|>Do you know the capital of Kenya?<|response|>Nairobi<|end|>
+<|instruction|>What is the capital of Ethiopia?<|response|>Addis Ababa<|end|>
+<|instruction|>What is the capital city of Ethiopia?<|response|>Addis Ababa<|end|>
+<|instruction|>Tell me the capital of Ethiopia<|response|>Addis Ababa<|end|>
+<|instruction|>Which city is the capital of Ethiopia?<|response|>Addis Ababa<|end|>
+<|instruction|>What city is the capital of Ethiopia?<|response|>Addis Ababa<|end|>
+<|instruction|>Ethiopia's capital is?<|response|>Addis Ababa<|end|>
+<|instruction|>Capital of Ethiopia?<|response|>Addis Ababa<|end|>
+<|instruction|>Do you know the capital of Ethiopia?<|response|>Addis Ababa<|end|>
+<|instruction|>What is the capital of Morocco?<|response|>Rabat<|end|>
+<|instruction|>What is the capital city of Morocco?<|response|>Rabat<|end|>
+<|instruction|>Tell me the capital of Morocco<|response|>Rabat<|end|>
+<|instruction|>Which city is the capital of Morocco?<|response|>Rabat<|end|>
+<|instruction|>What city is the capital of Morocco?<|response|>Rabat<|end|>
+<|instruction|>Morocco's capital is?<|response|>Rabat<|end|>
+<|instruction|>Capital of Morocco?<|response|>Rabat<|end|>
+<|instruction|>Do you know the capital of Morocco?<|response|>Rabat<|end|>
+<|instruction|>What is the capital of Algeria?<|response|>Algiers<|end|>
+<|instruction|>What is the capital city of Algeria?<|response|>Algiers<|end|>
+<|instruction|>Tell me the capital of Algeria<|response|>Algiers<|end|>
+<|instruction|>Which city is the capital of Algeria?<|response|>Algiers<|end|>
+<|instruction|>What city is the capital of Algeria?<|response|>Algiers<|end|>
+<|instruction|>Algeria's capital is?<|response|>Algiers<|end|>
+<|instruction|>Capital of Algeria?<|response|>Algiers<|end|>
+<|instruction|>Do you know the capital of Algeria?<|response|>Algiers<|end|>
+<|instruction|>What is the capital of Ghana?<|response|>Accra<|end|>
+<|instruction|>What is the capital city of Ghana?<|response|>Accra<|end|>
+<|instruction|>Tell me the capital of Ghana<|response|>Accra<|end|>
+<|instruction|>Which city is the capital of Ghana?<|response|>Accra<|end|>
+<|instruction|>What city is the capital of Ghana?<|response|>Accra<|end|>
+<|instruction|>Ghana's capital is?<|response|>Accra<|end|>
+<|instruction|>Capital of Ghana?<|response|>Accra<|end|>
+<|instruction|>Do you know the capital of Ghana?<|response|>Accra<|end|>
+<|instruction|>What is the capital of Tanzania?<|response|>Dodoma<|end|>
+<|instruction|>What is the capital city of Tanzania?<|response|>Dodoma<|end|>
+<|instruction|>Tell me the capital of Tanzania<|response|>Dodoma<|end|>
+<|instruction|>Which city is the capital of Tanzania?<|response|>Dodoma<|end|>
+<|instruction|>What city is the capital of Tanzania?<|response|>Dodoma<|end|>
+<|instruction|>Tanzania's capital is?<|response|>Dodoma<|end|>
+<|instruction|>Capital of Tanzania?<|response|>Dodoma<|end|>
+<|instruction|>Do you know the capital of Tanzania?<|response|>Dodoma<|end|>
+<|instruction|>What is the capital of Australia?<|response|>Canberra<|end|>
+<|instruction|>What is the capital city of Australia?<|response|>Canberra<|end|>
+<|instruction|>Tell me the capital of Australia<|response|>Canberra<|end|>
+<|instruction|>Which city is the capital of Australia?<|response|>Canberra<|end|>
+<|instruction|>What city is the capital of Australia?<|response|>Canberra<|end|>
+<|instruction|>Australia's capital is?<|response|>Canberra<|end|>
+<|instruction|>Capital of Australia?<|response|>Canberra<|end|>
+<|instruction|>Do you know the capital of Australia?<|response|>Canberra<|end|>
+<|instruction|>What is the capital of New Zealand?<|response|>Wellington<|end|>
+<|instruction|>What is the capital city of New Zealand?<|response|>Wellington<|end|>
+<|instruction|>Tell me the capital of New Zealand<|response|>Wellington<|end|>
+<|instruction|>Which city is the capital of New Zealand?<|response|>Wellington<|end|>
+<|instruction|>What city is the capital of New Zealand?<|response|>Wellington<|end|>
+<|instruction|>New Zealand's capital is?<|response|>Wellington<|end|>
+<|instruction|>Capital of New Zealand?<|response|>Wellington<|end|>
+<|instruction|>Do you know the capital of New Zealand?<|response|>Wellington<|end|>
+<|instruction|>What is the capital of Fiji?<|response|>Suva<|end|>
+<|instruction|>What is the capital city of Fiji?<|response|>Suva<|end|>
+<|instruction|>Tell me the capital of Fiji<|response|>Suva<|end|>
+<|instruction|>Which city is the capital of Fiji?<|response|>Suva<|end|>
+<|instruction|>What city is the capital of Fiji?<|response|>Suva<|end|>
+<|instruction|>Fiji's capital is?<|response|>Suva<|end|>
+<|instruction|>Capital of Fiji?<|response|>Suva<|end|>
+<|instruction|>Do you know the capital of Fiji?<|response|>Suva<|end|>

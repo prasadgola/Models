@@ -9,4 +9,4 @@
 
 
 # Single gpt transformer layer
-![Single gpt transformer layer](./gpt2/Single_gpt_transformer_layer.jpg)
+![Single gpt transformer layer](./References/Single_gpt_transformer_layer.jpg)

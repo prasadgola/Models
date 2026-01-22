@@ -1,0 +1,767 @@
+[
+  {
+    "instruction": "What is the capital of France?",
+    "input": "",
+    "output": "The capital of France is Paris."
+  },
+  {
+    "instruction": "What is the capital city of France?",
+    "input": "",
+    "output": "Paris is the capital of France."
+  },
+  {
+    "instruction": "Tell me the capital of France",
+    "input": "",
+    "output": "The capital is Paris."
+  },
+  {
+    "instruction": "What is the capital of Germany?",
+    "input": "",
+    "output": "The capital of Germany is Berlin."
+  },
+  {
+    "instruction": "What is the capital city of Germany?",
+    "input": "",
+    "output": "Berlin is the capital of Germany."
+  },
+  {
+    "instruction": "Tell me the capital of Germany",
+    "input": "",
+    "output": "The capital is Berlin."
+  },
+  {
+    "instruction": "What is the capital of United Kingdom?",
+    "input": "",
+    "output": "The capital of United Kingdom is London."
+  },
+  {
+    "instruction": "What is the capital city of United Kingdom?",
+    "input": "",
+    "output": "London is the capital of United Kingdom."
+  },
+  {
+    "instruction": "Tell me the capital of United Kingdom",
+    "input": "",
+    "output": "The capital is London."
+  },
+  {
+    "instruction": "What is the capital of Italy?",
+    "input": "",
+    "output": "The capital of Italy is Rome."
+  },
+  {
+    "instruction": "What is the capital city of Italy?",
+    "input": "",
+    "output": "Rome is the capital of Italy."
+  },
+  {
+    "instruction": "Tell me the capital of Italy",
+    "input": "",
+    "output": "The capital is Rome."
+  },
+  {
+    "instruction": "What is the capital of Spain?",
+    "input": "",
+    "output": "The capital of Spain is Madrid."
+  },
+  {
+    "instruction": "What is the capital city of Spain?",
+    "input": "",
+    "output": "Madrid is the capital of Spain."
+  },
+  {
+    "instruction": "Tell me the capital of Spain",
+    "input": "",
+    "output": "The capital is Madrid."
+  },
+  {
+    "instruction": "What is the capital of Portugal?",
+    "input": "",
+    "output": "The capital of Portugal is Lisbon."
+  },
+  {
+    "instruction": "What is the capital city of Portugal?",
+    "input": "",
+    "output": "Lisbon is the capital of Portugal."
+  },
+  {
+    "instruction": "Tell me the capital of Portugal",
+    "input": "",
+    "output": "The capital is Lisbon."
+  },
+  {
+    "instruction": "What is the capital of Netherlands?",
+    "input": "",
+    "output": "The capital of Netherlands is Amsterdam."
+  },
+  {
+    "instruction": "What is the capital city of Netherlands?",
+    "input": "",
+    "output": "Amsterdam is the capital of Netherlands."
+  },
+  {
+    "instruction": "Tell me the capital of Netherlands",
+    "input": "",
+    "output": "The capital is Amsterdam."
+  },
+  {
+    "instruction": "What is the capital of Belgium?",
+    "input": "",
+    "output": "The capital of Belgium is Brussels."
+  },
+  {
+    "instruction": "What is the capital city of Belgium?",
+    "input": "",
+    "output": "Brussels is the capital of Belgium."
+  },
+  {
+    "instruction": "Tell me the capital of Belgium",
+    "input": "",
+    "output": "The capital is Brussels."
+  },
+  {
+    "instruction": "What is the capital of Switzerland?",
+    "input": "",
+    "output": "The capital of Switzerland is Bern."
+  },
+  {
+    "instruction": "What is the capital city of Switzerland?",
+    "input": "",
+    "output": "Bern is the capital of Switzerland."
+  },
+  {
+    "instruction": "Tell me the capital of Switzerland",
+    "input": "",
+    "output": "The capital is Bern."
+  },
+  {
+    "instruction": "What is the capital of Austria?",
+    "input": "",
+    "output": "The capital of Austria is Vienna."
+  },
+  {
+    "instruction": "What is the capital city of Austria?",
+    "input": "",
+    "output": "Vienna is the capital of Austria."
+  },
+  {
+    "instruction": "Tell me the capital of Austria",
+    "input": "",
+    "output": "The capital is Vienna."
+  },
+  {
+    "instruction": "What is the capital of Poland?",
+    "input": "",
+    "output": "The capital of Poland is Warsaw."
+  },
+  {
+    "instruction": "What is the capital city of Poland?",
+    "input": "",
+    "output": "Warsaw is the capital of Poland."
+  },
+  {
+    "instruction": "Tell me the capital of Poland",
+    "input": "",
+    "output": "The capital is Warsaw."
+  },
+  {
+    "instruction": "What is the capital of Czech Republic?",
+    "input": "",
+    "output": "The capital of Czech Republic is Prague."
+  },
+  {
+    "instruction": "What is the capital city of Czech Republic?",
+    "input": "",
+    "output": "Prague is the capital of Czech Republic."
+  },
+  {
+    "instruction": "Tell me the capital of Czech Republic",
+    "input": "",
+    "output": "The capital is Prague."
+  },
+  {
+    "instruction": "What is the capital of Hungary?",
+    "input": "",
+    "output": "The capital of Hungary is Budapest."
+  },
+  {
+    "instruction": "What is the capital city of Hungary?",
+    "input": "",
+    "output": "Budapest is the capital of Hungary."
+  },
+  {
+    "instruction": "Tell me the capital of Hungary",
+    "input": "",
+    "output": "The capital is Budapest."
+  },
+  {
+    "instruction": "What is the capital of Romania?",
+    "input": "",
+    "output": "The capital of Romania is Bucharest."
+  },
+  {
+    "instruction": "What is the capital city of Romania?",
+    "input": "",
+    "output": "Bucharest is the capital of Romania."
+  },
+  {
+    "instruction": "Tell me the capital of Romania",
+    "input": "",
+    "output": "The capital is Bucharest."
+  },
+  {
+    "instruction": "What is the capital of Greece?",
+    "input": "",
+    "output": "The capital of Greece is Athens."
+  },
+  {
+    "instruction": "What is the capital city of Greece?",
+    "input": "",
+    "output": "Athens is the capital of Greece."
+  },
+  {
+    "instruction": "Tell me the capital of Greece",
+    "input": "",
+    "output": "The capital is Athens."
+  },
+  {
+    "instruction": "What is the capital of Turkey?",
+    "input": "",
+    "output": "The capital of Turkey is Ankara."
+  },
+  {
+    "instruction": "What is the capital city of Turkey?",
+    "input": "",
+    "output": "Ankara is the capital of Turkey."
+  },
+  {
+    "instruction": "Tell me the capital of Turkey",
+    "input": "",
+    "output": "The capital is Ankara."
+  },
+  {
+    "instruction": "What is the capital of Russia?",
+    "input": "",
+    "output": "The capital of Russia is Moscow."
+  },
+  {
+    "instruction": "What is the capital city of Russia?",
+    "input": "",
+    "output": "Moscow is the capital of Russia."
+  },
+  {
+    "instruction": "Tell me the capital of Russia",
+    "input": "",
+    "output": "The capital is Moscow."
+  },
+  {
+    "instruction": "What is the capital of Ukraine?",
+    "input": "",
+    "output": "The capital of Ukraine is Kyiv."
+  },
+  {
+    "instruction": "What is the capital city of Ukraine?",
+    "input": "",
+    "output": "Kyiv is the capital of Ukraine."
+  },
+  {
+    "instruction": "Tell me the capital of Ukraine",
+    "input": "",
+    "output": "The capital is Kyiv."
+  },
+  {
+    "instruction": "What is the capital of Sweden?",
+    "input": "",
+    "output": "The capital of Sweden is Stockholm."
+  },
+  {
+    "instruction": "What is the capital city of Sweden?",
+    "input": "",
+    "output": "Stockholm is the capital of Sweden."
+  },
+  {
+    "instruction": "Tell me the capital of Sweden",
+    "input": "",
+    "output": "The capital is Stockholm."
+  },
+  {
+    "instruction": "What is the capital of Norway?",
+    "input": "",
+    "output": "The capital of Norway is Oslo."
+  },
+  {
+    "instruction": "What is the capital city of Norway?",
+    "input": "",
+    "output": "Oslo is the capital of Norway."
+  },
+  {
+    "instruction": "Tell me the capital of Norway",
+    "input": "",
+    "output": "The capital is Oslo."
+  },
+  {
+    "instruction": "What is the capital of Denmark?",
+    "input": "",
+    "output": "The capital of Denmark is Copenhagen."
+  },
+  {
+    "instruction": "What is the capital city of Denmark?",
+    "input": "",
+    "output": "Copenhagen is the capital of Denmark."
+  },
+  {
+    "instruction": "Tell me the capital of Denmark",
+    "input": "",
+    "output": "The capital is Copenhagen."
+  },
+  {
+    "instruction": "What is the capital of Finland?",
+    "input": "",
+    "output": "The capital of Finland is Helsinki."
+  },
+  {
+    "instruction": "What is the capital city of Finland?",
+    "input": "",
+    "output": "Helsinki is the capital of Finland."
+  },
+  {
+    "instruction": "Tell me the capital of Finland",
+    "input": "",
+    "output": "The capital is Helsinki."
+  },
+  {
+    "instruction": "What is the capital of Ireland?",
+    "input": "",
+    "output": "The capital of Ireland is Dublin."
+  },
+  {
+    "instruction": "What is the capital city of Ireland?",
+    "input": "",
+    "output": "Dublin is the capital of Ireland."
+  },
+  {
+    "instruction": "Tell me the capital of Ireland",
+    "input": "",
+    "output": "The capital is Dublin."
+  },
+  {
+    "instruction": "What is the capital of Iceland?",
+    "input": "",
+    "output": "The capital of Iceland is Reykjavik."
+  },
+  {
+    "instruction": "What is the capital city of Iceland?",
+    "input": "",
+    "output": "Reykjavik is the capital of Iceland."
+  },
+  {
+    "instruction": "Tell me the capital of Iceland",
+    "input": "",
+    "output": "The capital is Reykjavik."
+  },
+  {
+    "instruction": "What is the capital of Canada?",
+    "input": "",
+    "output": "The capital of Canada is Ottawa."
+  },
+  {
+    "instruction": "What is the capital city of Canada?",
+    "input": "",
+    "output": "Ottawa is the capital of Canada."
+  },
+  {
+    "instruction": "Tell me the capital of Canada",
+    "input": "",
+    "output": "The capital is Ottawa."
+  },
+  {
+    "instruction": "What is the capital of United States?",
+    "input": "",
+    "output": "The capital of United States is Washington, D.C.."
+  },
+  {
+    "instruction": "What is the capital city of United States?",
+    "input": "",
+    "output": "Washington, D.C. is the capital of United States."
+  },
+  {
+    "instruction": "Tell me the capital of United States",
+    "input": "",
+    "output": "The capital is Washington, D.C.."
+  },
+  {
+    "instruction": "What is the capital of Mexico?",
+    "input": "",
+    "output": "The capital of Mexico is Mexico City."
+  },
+  {
+    "instruction": "What is the capital city of Mexico?",
+    "input": "",
+    "output": "Mexico City is the capital of Mexico."
+  },
+  {
+    "instruction": "Tell me the capital of Mexico",
+    "input": "",
+    "output": "The capital is Mexico City."
+  },
+  {
+    "instruction": "What is the capital of Brazil?",
+    "input": "",
+    "output": "The capital of Brazil is Bras\u00edlia."
+  },
+  {
+    "instruction": "What is the capital city of Brazil?",
+    "input": "",
+    "output": "Bras\u00edlia is the capital of Brazil."
+  },
+  {
+    "instruction": "Tell me the capital of Brazil",
+    "input": "",
+    "output": "The capital is Bras\u00edlia."
+  },
+  {
+    "instruction": "What is the capital of Argentina?",
+    "input": "",
+    "output": "The capital of Argentina is Buenos Aires."
+  },
+  {
+    "instruction": "What is the capital city of Argentina?",
+    "input": "",
+    "output": "Buenos Aires is the capital of Argentina."
+  },
+  {
+    "instruction": "Tell me the capital of Argentina",
+    "input": "",
+    "output": "The capital is Buenos Aires."
+  },
+  {
+    "instruction": "What is the capital of Chile?",
+    "input": "",
+    "output": "The capital of Chile is Santiago."
+  },
+  {
+    "instruction": "What is the capital city of Chile?",
+    "input": "",
+    "output": "Santiago is the capital of Chile."
+  },
+  {
+    "instruction": "Tell me the capital of Chile",
+    "input": "",
+    "output": "The capital is Santiago."
+  },
+  {
+    "instruction": "What is the capital of Peru?",
+    "input": "",
+    "output": "The capital of Peru is Lima."
+  },
+  {
+    "instruction": "What is the capital city of Peru?",
+    "input": "",
+    "output": "Lima is the capital of Peru."
+  },
+  {
+    "instruction": "Tell me the capital of Peru",
+    "input": "",
+    "output": "The capital is Lima."
+  },
+  {
+    "instruction": "What is the capital of Colombia?",
+    "input": "",
+    "output": "The capital of Colombia is Bogot\u00e1."
+  },
+  {
+    "instruction": "What is the capital city of Colombia?",
+    "input": "",
+    "output": "Bogot\u00e1 is the capital of Colombia."
+  },
+  {
+    "instruction": "Tell me the capital of Colombia",
+    "input": "",
+    "output": "The capital is Bogot\u00e1."
+  },
+  {
+    "instruction": "What is the capital of Venezuela?",
+    "input": "",
+    "output": "The capital of Venezuela is Caracas."
+  },
+  {
+    "instruction": "What is the capital city of Venezuela?",
+    "input": "",
+    "output": "Caracas is the capital of Venezuela."
+  },
+  {
+    "instruction": "Tell me the capital of Venezuela",
+    "input": "",
+    "output": "The capital is Caracas."
+  },
+  {
+    "instruction": "What is the capital of Japan?",
+    "input": "",
+    "output": "The capital of Japan is Tokyo."
+  },
+  {
+    "instruction": "What is the capital city of Japan?",
+    "input": "",
+    "output": "Tokyo is the capital of Japan."
+  },
+  {
+    "instruction": "Tell me the capital of Japan",
+    "input": "",
+    "output": "The capital is Tokyo."
+  },
+  {
+    "instruction": "What is the capital of China?",
+    "input": "",
+    "output": "The capital of China is Beijing."
+  },
+  {
+    "instruction": "What is the capital city of China?",
+    "input": "",
+    "output": "Beijing is the capital of China."
+  },
+  {
+    "instruction": "Tell me the capital of China",
+    "input": "",
+    "output": "The capital is Beijing."
+  },
+  {
+    "instruction": "What is the capital of India?",
+    "input": "",
+    "output": "The capital of India is New Delhi."
+  },
+  {
+    "instruction": "What is the capital city of India?",
+    "input": "",
+    "output": "New Delhi is the capital of India."
+  },
+  {
+    "instruction": "Tell me the capital of India",
+    "input": "",
+    "output": "The capital is New Delhi."
+  },
+  {
+    "instruction": "What is the capital of South Korea?",
+    "input": "",
+    "output": "The capital of South Korea is Seoul."
+  },
+  {
+    "instruction": "What is the capital city of South Korea?",
+    "input": "",
+    "output": "Seoul is the capital of South Korea."
+  },
+  {
+    "instruction": "Tell me the capital of South Korea",
+    "input": "",
+    "output": "The capital is Seoul."
+  },
+  {
+    "instruction": "What is the capital of Thailand?",
+    "input": "",
+    "output": "The capital of Thailand is Bangkok."
+  },
+  {
+    "instruction": "What is the capital city of Thailand?",
+    "input": "",
+    "output": "Bangkok is the capital of Thailand."
+  },
+  {
+    "instruction": "Tell me the capital of Thailand",
+    "input": "",
+    "output": "The capital is Bangkok."
+  },
+  {
+    "instruction": "What is the capital of Vietnam?",
+    "input": "",
+    "output": "The capital of Vietnam is Hanoi."
+  },
+  {
+    "instruction": "What is the capital city of Vietnam?",
+    "input": "",
+    "output": "Hanoi is the capital of Vietnam."
+  },
+  {
+    "instruction": "Tell me the capital of Vietnam",
+    "input": "",
+    "output": "The capital is Hanoi."
+  },
+  {
+    "instruction": "What is the capital of Indonesia?",
+    "input": "",
+    "output": "The capital of Indonesia is Jakarta."
+  },
+  {
+    "instruction": "What is the capital city of Indonesia?",
+    "input": "",
+    "output": "Jakarta is the capital of Indonesia."
+  },
+  {
+    "instruction": "Tell me the capital of Indonesia",
+    "input": "",
+    "output": "The capital is Jakarta."
+  },
+  {
+    "instruction": "What is the capital of Philippines?",
+    "input": "",
+    "output": "The capital of Philippines is Manila."
+  },
+  {
+    "instruction": "What is the capital city of Philippines?",
+    "input": "",
+    "output": "Manila is the capital of Philippines."
+  },
+  {
+    "instruction": "Tell me the capital of Philippines",
+    "input": "",
+    "output": "The capital is Manila."
+  },
+  {
+    "instruction": "What is the capital of Malaysia?",
+    "input": "",
+    "output": "The capital of Malaysia is Kuala Lumpur."
+  },
+  {
+    "instruction": "What is the capital city of Malaysia?",
+    "input": "",
+    "output": "Kuala Lumpur is the capital of Malaysia."
+  },
+  {
+    "instruction": "Tell me the capital of Malaysia",
+    "input": "",
+    "output": "The capital is Kuala Lumpur."
+  },
+  {
+    "instruction": "What is the capital of Singapore?",
+    "input": "",
+    "output": "The capital of Singapore is Singapore."
+  },
+  {
+    "instruction": "What is the capital city of Singapore?",
+    "input": "",
+    "output": "Singapore is the capital of Singapore."
+  },
+  {
+    "instruction": "Tell me the capital of Singapore",
+    "input": "",
+    "output": "The capital is Singapore."
+  },
+  {
+    "instruction": "What is the capital of Australia?",
+    "input": "",
+    "output": "The capital of Australia is Canberra."
+  },
+  {
+    "instruction": "What is the capital city of Australia?",
+    "input": "",
+    "output": "Canberra is the capital of Australia."
+  },
+  {
+    "instruction": "Tell me the capital of Australia",
+    "input": "",
+    "output": "The capital is Canberra."
+  },
+  {
+    "instruction": "What is the capital of New Zealand?",
+    "input": "",
+    "output": "The capital of New Zealand is Wellington."
+  },
+  {
+    "instruction": "What is the capital city of New Zealand?",
+    "input": "",
+    "output": "Wellington is the capital of New Zealand."
+  },
+  {
+    "instruction": "Tell me the capital of New Zealand",
+    "input": "",
+    "output": "The capital is Wellington."
+  },
+  {
+    "instruction": "What is the capital of Egypt?",
+    "input": "",
+    "output": "The capital of Egypt is Cairo."
+  },
+  {
+    "instruction": "What is the capital city of Egypt?",
+    "input": "",
+    "output": "Cairo is the capital of Egypt."
+  },
+  {
+    "instruction": "Tell me the capital of Egypt",
+    "input": "",
+    "output": "The capital is Cairo."
+  },
+  {
+    "instruction": "What is the capital of South Africa?",
+    "input": "",
+    "output": "The capital of South Africa is Pretoria."
+  },
+  {
+    "instruction": "What is the capital city of South Africa?",
+    "input": "",
+    "output": "Pretoria is the capital of South Africa."
+  },
+  {
+    "instruction": "Tell me the capital of South Africa",
+    "input": "",
+    "output": "The capital is Pretoria."
+  },
+  {
+    "instruction": "What is the capital of Nigeria?",
+    "input": "",
+    "output": "The capital of Nigeria is Abuja."
+  },
+  {
+    "instruction": "What is the capital city of Nigeria?",
+    "input": "",
+    "output": "Abuja is the capital of Nigeria."
+  },
+  {
+    "instruction": "Tell me the capital of Nigeria",
+    "input": "",
+    "output": "The capital is Abuja."
+  },
+  {
+    "instruction": "What is the capital of Kenya?",
+    "input": "",
+    "output": "The capital of Kenya is Nairobi."
+  },
+  {
+    "instruction": "What is the capital city of Kenya?",
+    "input": "",
+    "output": "Nairobi is the capital of Kenya."
+  },
+  {
+    "instruction": "Tell me the capital of Kenya",
+    "input": "",
+    "output": "The capital is Nairobi."
+  },
+  {
+    "instruction": "What is the capital of Ethiopia?",
+    "input": "",
+    "output": "The capital of Ethiopia is Addis Ababa."
+  },
+  {
+    "instruction": "What is the capital city of Ethiopia?",
+    "input": "",
+    "output": "Addis Ababa is the capital of Ethiopia."
+  },
+  {
+    "instruction": "Tell me the capital of Ethiopia",
+    "input": "",
+    "output": "The capital is Addis Ababa."
+  },
+  {
+    "instruction": "Name some European capitals",
+    "input": "",
+    "output": "Some European capitals include Paris (France), Berlin (Germany), London (United Kingdom), Rome (Italy), Madrid (Spain), and Vienna (Austria)."
+  },
+  {
+    "instruction": "What are the capitals of Asian countries?",
+    "input": "",
+    "output": "Some Asian capitals include Tokyo (Japan), Beijing (China), New Delhi (India), Seoul (South Korea), Bangkok (Thailand), and Jakarta (Indonesia)."
+  },
+  {
+    "instruction": "List capitals of South American countries",
+    "input": "",
+    "output": "South American capitals include Bras\u00edlia (Brazil), Buenos Aires (Argentina), Santiago (Chile), Lima (Peru), Bogot\u00e1 (Colombia), and Caracas (Venezuela)."
+  }
+]
