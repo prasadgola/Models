@@ -10,3 +10,9 @@ Huggingface
 model_weights.pth
 
 ek.txt
+
+training_images/training_images
+
+training_images/pixel_model_weights.pth
+
+training_images/image_model_weights.pth
